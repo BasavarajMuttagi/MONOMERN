@@ -69,7 +69,7 @@ h1{
     margin-bottom:0.2em;
     padding-bottom: 10px;
     border-bottom: 2px solid black;
-    color: rgb(35, 32, 50);
+    color: red;
    
 }
 
@@ -111,7 +111,7 @@ h1{
 }
 .myname{
     padding: 10px;
-    background-color:rgb(35, 32, 50);
+    background-color:red;
     color: aliceblue;
 }
 .name{
