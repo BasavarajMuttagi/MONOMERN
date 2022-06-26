@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding-top:10px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto';
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.resume{
+    width: 70%;
+    border:2px solid black;
+    width:fit-content;
+}
+
+.leftside{
+    float:left;
+    /* background:blue; */
+    width: 30%;
+    word-wrap: break-word;
+    padding-bottom: 34.5vh;
+ }
+ 
+ 
+ .rightside {
+     /* background:green; */
+     float:right;
+     width: 70%;
+     
+ }
+ .item{
+    font-size:small;
+    font-weight:580;
+ }
+ .bolditem{
+  
+    font-size:large;
+    font-weight: bold;
+    margin-bottom:0.5rem;
+    
+ }
+ .semibolditem{
+   
+    font-size:medium;
+    font-weight: bold;
+}
+
+.skills , .contacts , .languages, .interests   {
+    line-height: 1.3rem;
+    padding-left: 10%;
+}
+.education,.project,.certificate,.achievement{
+    line-height: 1.3rem;
+    padding-left: 5%;
+}
+.rightside .item{
+    padding-left: 3.5%;
+}
+.leftside .item{
+    padding-left: 3.5%;
+}
+h1{
+    margin-bottom:0.2em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    color: rgb(35, 32, 50);
+   
+}
+
+.certificate .item, .achievement .item , .myname .item ,.life{
+  font-style: italic;
+ 
+}
+.project .item {
+  
+    list-style:inside;
+  }
+.name {
+    text-decoration:underline;
+    text-underline-offset: 0.7rem;
+    border-bottom: 0;
+}
+.interests .item{
+    margin:0.5em;
+    border:1px solid black;
+    border-radius: 3px;
+    width:fit-content;
+    text-align: center;
+}
+.skills .item{
+    margin:0.5em;
+    border:1px solid white;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    background-color: gray;
+    display: inline-block;
+}
+
+.prof{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 22%;
+}
+.myname{
+    padding: 10px;
+    background-color:rgb(35, 32, 50);
+    color: aliceblue;
+}
+.name{
+    color: aliceblue;
+}
+.life{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+   width: 5%;
+   height: 5%;
+   margin-left: 4%;
+}
+.export{
+   width: 1.8%;
+   height: 1.8%;
+   margin-left: 0%;
+}
